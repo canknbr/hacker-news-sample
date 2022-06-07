@@ -1,8 +1,8 @@
 import React from 'react';
-import Buttons from './Buttons';
 import SearchForms from './SearchForms';
 import Stories from './Stories';
-const App = () => {
+import Buttons from './Buttons';
+function App() {
   return (
     <>
       <SearchForms />
@@ -10,6 +10,6 @@ const App = () => {
       <Stories />
     </>
   );
-};
+}
 
 export default App;

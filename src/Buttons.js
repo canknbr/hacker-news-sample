@@ -10,7 +10,7 @@ const Buttons = () => {
         prev
       </button>
       <p>
-        {page + 1} of {nbPages}
+        {page + 1} of <span>{nbPages}</span>
       </p>
       <button disabled={isLoading} onClick={() => handlePage('inc')}>
         next
